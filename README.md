@@ -75,7 +75,7 @@ Create Employee:
 Body:
 json
 { 
-  "name": "John Doe", 
+  "name": "Swapnil Jagtap", 
   "department": "HR", 
   "role": "Manager" 
 }
@@ -89,7 +89,7 @@ Body:
 json
 
 { 
-  "name": "John Doe", 
+  "name": "Harish vaidya", 
   "department": "HR", 
   "role": "Senior Manager" 
 }
@@ -109,7 +109,7 @@ To paginate through the employee list, use the page query parameter:
 
 
 ## Filtering
-You can filter employees by department and role using query parameters:
+Filter employees by department and role using query parameters:
 ## GET http://127.0.0.1:8000/api/employees/?department=HR
 ## GET http://127.0.0.1:8000/api/employees/?role=Manager
 ## GET http://127.0.0.1:8000/api/employees/?role=sales
