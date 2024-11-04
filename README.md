@@ -30,10 +30,6 @@ This is a RESTful API for managing employee records, built using Django and Djan
 python manage.py makemigrations
 
 
-## Run migrations:
-
-python manage.py makemigrations
-
 ## Apply migrations:
 
 python manage.py migrate
@@ -55,7 +51,7 @@ Open your browser and go to http://127.0.0.1:8000/api/employees/ to view the API
 ## Authentication
 ## Token Generation:
 
-## POST /api/token/
+## POST http://127.0.0.1:8000/api/token/
 Body:
 json
 
@@ -67,15 +63,15 @@ Returns: JWT token for authentication.
 Employee Endpoints
 Get All Employees:
 
-## GET /api/employees/
+## GET http://127.0.0.1:8000/api/employees/
 Supports pagination and filtering by department and role.
 Get Single Employee:
 
-## GET /api/employees/{id}/
+## GET http://127.0.0.1:8000/api/employees/{id}/
 Retrieve details of a single employee by ID.
 Create Employee:
 
-## POST /api/employees/
+## POST http://127.0.0.1:8000/api/employees/
 Body:
 json
 { 
@@ -88,7 +84,7 @@ Creates a new employee record.
 
 ## Update Employee:
 
-## PUT /api/employees/{id}/
+## PUT http://127.0.0.1:8000/api/employees/{id}/
 Body:
 json
 
@@ -102,17 +98,18 @@ Updates the employee record by ID.
 
 ## Delete Employee:
 
-## DELETE /api/employees/{id}/
+## DELETE http://127.0.0.1:8000/api/employees/{id}/
 Deletes the employee record by ID.
 
 ## Pagination
 To paginate through the employee list, use the page query parameter:
 
-Example: GET /api/employees/?page=1 to get the first 10 employees.
-Example: GET /api/employees/?page=2 to get the next 10 employees.
+## GET http://127.0.0.1:8000/api/employees/?page=1 to get the first 10 employees.
+## GET http://127.0.0.1:8000/api/employees/?page=2 to get the next 10 employees.
 
 
 ## Filtering
 You can filter employees by department and role using query parameters:
-Example: GET /api/employees/?department=HR
-Example: GET /api/employees/?role=Manager
+## GET http://127.0.0.1:8000/api/employees/?department=HR
+## GET http://127.0.0.1:8000/api/employees/?role=Manager
+## GET http://127.0.0.1:8000/api/employees/?role=Analyst
