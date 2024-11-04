@@ -60,8 +60,8 @@ Body:
 json
 Copy code
 { 
-  "username": "yourusername", 
-  "password": "yourpassword" 
+  "username": "mahesh", 
+  "password": "123" 
 }
 Returns: JWT token for authentication.
 Employee Endpoints
