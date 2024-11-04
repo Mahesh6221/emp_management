@@ -26,6 +26,11 @@ This is a RESTful API for managing employee records, built using Django and Djan
    cd your-repo-name
 
 
+
+## Run migrations:
+
+python manage.py makemigrations
+
 ## Apply migrations:
 
 python manage.py migrate
