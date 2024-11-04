@@ -112,4 +112,4 @@ To paginate through the employee list, use the page query parameter:
 You can filter employees by department and role using query parameters:
 ## GET http://127.0.0.1:8000/api/employees/?department=HR
 ## GET http://127.0.0.1:8000/api/employees/?role=Manager
-## GET http://127.0.0.1:8000/api/employees/?role=Analyst
+## GET http://127.0.0.1:8000/api/employees/?role=sales
