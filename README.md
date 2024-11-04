@@ -21,7 +21,6 @@ This is a RESTful API for managing employee records, built using Django and Djan
 
 1. **Clone the repository**:
 
-   ```bash
    git clone https://github.com/Mahesh6221/emp_management
    cd emp_management
 
