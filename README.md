@@ -58,7 +58,7 @@ Open your browser and go to http://127.0.0.1:8000/api/employees/ to view the API
 ## POST /api/token/
 Body:
 json
-Copy code
+
 { 
   "username": "mahesh", 
   "password": "123" 
@@ -91,7 +91,7 @@ Creates a new employee record.
 ## PUT /api/employees/{id}/
 Body:
 json
-Copy code
+
 { 
   "name": "John Doe", 
   "department": "HR", 
